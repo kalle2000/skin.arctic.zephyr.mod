@@ -1488,15 +1488,15 @@
                     <visible>![Skin.HasSetting(homemenu.hide.lines) + $EXP[HomeIsModernMultiWidgets]]</visible>
                     <control type="image" description="Shadow">
                         <width>100%</width>
-                        <height>1</height>
+                        <height>2</height>
                         <bottom>190</bottom>
                         <texture flipy="true" colordiffuse="BoxHomerow">common/sch2.png</texture>
                         <animation effect="fade" start="100" end="25" time="0" condition="!Skin.HasSetting(no.homemenu.clear) + $EXP[HomeIsModernMultiWidgets]">Conditional</animation>
                     </control>
                     <control type="image" description="Shadow">
                         <width>100%</width>
-                        <height>1</height>
-                        <bottom>29</bottom>
+                        <height>2</height>
+                        <bottom>28</bottom>
                         <texture flipy="true" colordiffuse="BoxHomerow">common/sch2.png</texture>
                         <visible>!Skin.HasSetting(thumbnails.white)</visible>
                         <animation effect="fade" start="100" end="25" time="0" condition="!Skin.HasSetting(no.homemenu.clear) + $EXP[HomeIsModernMultiWidgets]">Conditional</animation>
@@ -1532,7 +1532,7 @@
                     </control>
                     <control type="image" description="Shadow">
                         <width>100%</width>
-                        <height>1</height>
+                        <height>2</height>
                         <bottom>220</bottom>
                         <texture flipy="true" colordiffuse="BoxHomerow">common/sch2.png</texture>
                         <animation effect="fade" start="100" end="25" time="0" condition="!Skin.HasSetting(no.homemenu.clear) + $EXP[HomeIsModernMultiWidgets]">Conditional</animation>
